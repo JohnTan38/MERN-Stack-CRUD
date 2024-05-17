@@ -16,7 +16,7 @@ let Employee = new Schema({
         type: Number
     }
 },{
-    collection: 'employees'
+    collection: 'employeeDetails'
 });
 
 module.exports = mongoose.model('Employee', Employee);
